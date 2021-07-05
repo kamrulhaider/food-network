@@ -117,3 +117,18 @@ button {
   font-size: 18px;
   color: black;
 }
+#gallary-section {
+  margin: 50px 0;
+}
+.gallary img {
+  width: 100%;
+}
+footer {
+  padding: 50px 0;
+  background-color: black;
+}
+footer p {
+  font-size: 18px;
+  color: white;
+  margin-bottom: 0;
+}
