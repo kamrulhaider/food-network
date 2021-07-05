@@ -120,6 +120,9 @@ button {
 #gallary-section {
   margin: 50px 0;
 }
+.gallary {
+  margin-top: 25px;
+}
 .gallary img {
   width: 100%;
 }
