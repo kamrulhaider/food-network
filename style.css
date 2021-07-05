@@ -2,3 +2,38 @@ body {
   margin: 0;
   font-family: "Montserrat", sans-serif;
 }
+.order {
+  display: flex;
+  margin: 0 3%;
+  margin-bottom: 30px;
+}
+.order-half {
+  width: 50%;
+  margin-left: 20px;
+}
+.order-half h1 {
+  font-size: 60px;
+  color: #575757;
+  margin-top: 150px;
+}
+.orange-color {
+  color: #fba24f;
+}
+.order-half p {
+  color: #828282;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+.order-half img {
+  width: 100%;
+}
+.food-btn {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  background-image: linear-gradient(#fba24f, #ff1e1e);
+  padding: 20px 30px;
+  border-radius: 50px;
+  box-shadow: 5px 5px 40px #fba24f;
+}
