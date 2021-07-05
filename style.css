@@ -98,3 +98,22 @@ button {
   background-size: cover;
   padding: 50px;
 }
+.feedback {
+  margin: 50px 3%;
+  padding: 25px;
+  text-align: center;
+  box-shadow: 5px 5px 40px #a8a8a8;
+  border-radius: 20px;
+}
+.feedback div {
+  width: 100%;
+}
+.feedback h1 {
+  font-size: 48px;
+  color: black;
+  margin-bottom: 0;
+}
+.feedback p {
+  font-size: 18px;
+  color: black;
+}
