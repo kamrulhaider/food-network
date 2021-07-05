@@ -5,11 +5,11 @@ body {
 .container {
   display: flex;
   margin: 0 3%;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 .order-half {
   width: 50%;
-  margin-left: 20px;
+  margin: 0 20px;
 }
 .order-half h1 {
   font-size: 60px;
@@ -39,6 +39,8 @@ body {
   box-shadow: 5px 5px 40px #fba24f;
 }
 #bg-image {
+  display: flex;
+  margin-bottom: 50px;
   background-image: url(images/bg-image.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -57,11 +59,6 @@ body {
 .section-title h2 {
   font-size: 40px;
   color: #707070;
-}
-.recipes {
-  display: flex;
-  margin: 0 3%;
-  margin-bottom: 30px;
 }
 .food-card {
   width: 30%;
@@ -82,4 +79,22 @@ body {
 .food-card p {
   font-size: 18px;
   color: black;
+}
+
+form input {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 20px;
+  border: 3px solid #fba24f;
+  text-align: center;
+}
+button {
+  border: none;
+}
+.newsletter {
+  background-image: url(images/newsletter.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 50px;
 }
